@@ -38,4 +38,5 @@ if((!isNaN(km)) && (!isNaN(age))){
 } else {
     //input sbagliato
     console.log('devi inserire dei numeri non delle stringhe')
+    document.getElementById('app').innerHTML = `<h2>Non puoi scrivere stringhe al poso dei chilometri e dell'età</h2>`
 }
